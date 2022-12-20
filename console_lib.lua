@@ -1,9 +1,11 @@
+
 do
-	local Console = game:GetService("CoreGui"):FindFirstChild("STX_Console")
-	if Console then
-		Console:Destroy()
-	end
+    local Console = game:GetService("CoreGui"):FindFirstChild("STX_Console")
+    if Console then
+        Console:Destroy()
+    end
 end
+
 
 local Console = {}
 
