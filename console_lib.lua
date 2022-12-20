@@ -275,12 +275,6 @@ function Console:Window(consoledebugger)
 	UserInputService.InputBegan:Connect(onInputBegan)
 
 	local ConsoleLog = {}
-	
-	function ConsoleLog:Run(commandfunction)
-	Run.MouseButton1Click:Connect(function()
-	commandfunction()
-	end)
-	end
 
 	function ConsoleLog:Prompt(promptdebugger)
 		local PromptTitle = promptdebugger.Title
