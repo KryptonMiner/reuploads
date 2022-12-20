@@ -277,7 +277,9 @@ function Console:Window(consoledebugger)
 	local ConsoleLog = {}
 	
 	function ConsoleLog:Run(commandfunction)
-		commandfunction()
+	Run.MouseButton1Click:Connect(function()
+	commandfunction()
+	end)
 	end
 
 	function ConsoleLog:Prompt(promptdebugger)
