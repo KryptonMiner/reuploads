@@ -43,7 +43,7 @@ local RayfieldLibrary = {
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
 			ToggleEnabledStroke = Color3.fromRGB(46, 0, 196),
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
-			ToggleEnabledOuterStroke = Color3.fromRGB(46, 0, 196),
+			ToggleEnabledOuterStroke = Color3.fromRGB(53, 2, 217),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
 			
 			InputBackground = Color3.fromRGB(30, 30, 30),
@@ -871,11 +871,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
-	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
-	end
+	LoadingFrame.Title.Text = "Lunar Hub"
+	LoadingFrame.Subtitle.Text = "by Lunar"
 	Topbar.Visible = false
 	Elements.Visible = false
 	LoadingFrame.Visible = true
