@@ -1,6 +1,6 @@
 
 
-local Release = "Beta 7R"
+local Release = "Beta Build"
 local NotificationDuration = 6.5
 local RayfieldFolder = "Lunar"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
