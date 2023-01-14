@@ -1,3 +1,6 @@
+-- credits to finity owners for this amazing ui
+-- github > https://github.com/LocalSmail/Finity/
+
 local finity = {}
 finity.gs = {}
 
